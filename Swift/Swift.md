@@ -87,6 +87,7 @@ ___
 > Swift’s **switch** statement is considerably more powerful. 
 <br/>
 
+<<<<<<< HEAD
 ### FOR-IN LOOPS
 <br/>
 
@@ -164,6 +165,8 @@ let pi = 3.141519
 =======
 =======
 >>>>>>> e752004 (Added for Loops)
+=======
+>>>>>>> ea12b1e (Removed extra for-in loop description)
 ## FOR-IN LOOPS
 <br/>
 
