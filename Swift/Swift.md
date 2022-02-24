@@ -16,6 +16,32 @@
   str = "Goodbye"
   ```
 
+### **Rules for naming Swift Variables**
+
+1. Variables names must start with either a letter, an underscore `_` , or the dollar sign `$`. For example,
+    ```Swift
+    // valid
+    var a = "hello"
+    var _a = "hello"
+    var $a = "hello"
+     ```
+
+2. Variable names cannot start with numbers. For example,
+    ```Swift
+    // invalid
+    var 1a = "hello" // throws error
+    ```
+
+3. Swift is case-sensitive. So `A` and `a` are different variables. For example,
+    ```Swift
+    var A = 5 
+    var a = 55
+    print(A) // 5
+    print(a) // 55
+    ```
+
+4. Avoid using Swift keywords like `var`, &nbsp;`String`, &nbsp;`class`, etc. as variable names.
+    
 ## **Constants**
 
 *Alternative* to the var keyword,if you want to set a value once and never change it.
@@ -27,6 +53,7 @@
 let pi = 3.141519
 ```
 >**Note**: You can declare multiple _*constants*_ or multiple variables on a single line, separated by commas
+
 
 <br/>
 
