@@ -1,6 +1,2 @@
-A repo to learn git
+# GIT LEARNING
 Learning Git is fun
-
-
-
-
