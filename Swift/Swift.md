@@ -58,12 +58,9 @@ for (animalName, legCount) in numberOfLegs {
 ___
 
 ## **<span style="color:Thistle">Variables -- Nidhi**</span>
----
-* Variables are place where you can store program data
+>Variables are place where you can store program data
 
-* They can vary 
-
-* Declare with the _**var**_
+>They can vary 
 
 ```swift
  var str = "Hello"
@@ -73,6 +70,7 @@ ___
   str = "Goodbye"
   ```
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 =======
@@ -88,3 +86,5 @@ let pi = 3.141519
 ```
 >**Note**: You can declare multiple _*constants*_ or multiple variables on a single line, separated by commas
 >>>>>>> 7d54630 (Modified and added description about constants)
+=======
+>>>>>>> 7000f56 (Revert "Modified and added description about constants")
