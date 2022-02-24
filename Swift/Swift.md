@@ -60,7 +60,7 @@ let pi = 3.141519
 ___
 
 <br/>
-___
+
 
 ## **Control Flow** -- _Raj_
 
@@ -189,11 +189,12 @@ for name in names {
 * ### **Example**
      * _To iterate over an Dictionary_
 
-     ```swift
-     let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
-      for (animalName, legCount) in numberOfLegs {
-        print("\(animalName)s have \(legCount) legs")
+```swift
+let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
+for (animalName, legCount) in numberOfLegs {
+    print("\(animalName)s have \(legCount) legs")
           }
+<<<<<<< HEAD
     // cats have 4 legs
     // ants have 6 legs
     // spiders have 8 legs
@@ -204,3 +205,9 @@ for name in names {
 >>>>>>> 71b9ad9 (edited repo)
 =======
 >>>>>>> e752004 (Added for Loops)
+=======
+// cats have 4 legs
+// ants have 6 legs
+// spiders have 8 legs
+```
+>>>>>>> 172969b (fixed the allignment)
