@@ -2,7 +2,6 @@
 
 ## **Control Flow** -- _Raj_
 
-___
 
 ### _Control flow_ or _flow of control_ is the order function calls, instructions, and statements that are executed or evaluated when a program is running. 
 <br/>
