@@ -33,13 +33,13 @@ let pi = 3.141519
 ___
 
 <br/>
+___
 
 ## **Control Flow** -- _Raj_
 
 ___
 
 ### _Control flow_ or _flow of control_ is the order function calls, instructions, and statements that are executed or evaluated when a program is running. 
-
 <br/>
 
 > #### Swift provides a variety of control flow statements.
@@ -94,6 +94,7 @@ for (animalName, legCount) in numberOfLegs {
 ___
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## **<span style="color:Thistle">Variables -- Nidhi**</span>
 >Variables are place where you can store program data
 
@@ -134,6 +135,8 @@ let pi = 3.141519
 =======
 >>>>>>> 2de7cf1 (Added about Control flow Intro)
 =======
+=======
+>>>>>>> e752004 (Added for Loops)
 ## FOR-IN LOOPS
 <br/>
 
@@ -165,6 +168,9 @@ for name in names {
     // ants have 6 legs
     // spiders have 8 legs
     ```
+<<<<<<< HEAD
 >>>>>>> f4da0ab (Added for Loops)
 =======
 >>>>>>> 71b9ad9 (edited repo)
+=======
+>>>>>>> e752004 (Added for Loops)
