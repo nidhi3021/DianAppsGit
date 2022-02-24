@@ -33,7 +33,6 @@ let pi = 3.141519
 ___
 
 <br/>
-___
 
 ## **Control Flow** -- _Raj_
 
@@ -92,6 +91,7 @@ for (animalName, legCount) in numberOfLegs {
 ````
 ___
 
+<<<<<<< HEAD
 ## **<span style="color:Thistle">Variables -- Nidhi**</span>
 >Variables are place where you can store program data
 
@@ -164,3 +164,5 @@ for name in names {
     // spiders have 8 legs
     ```
 >>>>>>> f4da0ab (Added for Loops)
+=======
+>>>>>>> 71b9ad9 (edited repo)
