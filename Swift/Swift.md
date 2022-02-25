@@ -87,7 +87,9 @@ ___
 > Swift’s **switch** statement is considerably more powerful. 
 <br/>
 
-### FOR-IN LOOPS
+---
+## FOR-IN LOOPS
+---
 <br/>
 
 > It is used to iterate over a sequence, such as items in an array, ranges of numbers, or characters in a string.
@@ -118,5 +120,53 @@ for (animalName, legCount) in numberOfLegs {
 // ants have 6 legs
 // spiders have 8 legs
 ````
+* ### **Example**
+  * For Numeric Ranges
+
+```Swift
+for index in 1...5 {
+ print("\(index) times 5 is \(index * 5)")
+  }
+// 1 times 5 is 5
+// 2 times 5 is 10
+// 3 times 5 is 15
+// 4 times 5 is 20
+// 5 times 5 is 25
+
+```
+**Note:** _You can ignore the values by using an underscore in place of a variable name._
+
+---
+## WHILE LOOPS
+---
+>A while loop performs a set of statements until a condition becomes false.
+
+* are best used when the number of iterations isn’t known before the first iteration begins.
+
+ * Swift Provides Two kinds of While Loops
+
+   * **While** loop evaluates conditions at the start of each pass.
+
+   >_Here’s the general form of a while loop:_
+   ```swift
+   while condition {
+    statements
+   }
+   ```
+  
+
+   * **Repeat** While loop evaluates conditions at the end of each pass.
+
+   > Here’s the general form of a repeat-while 
+   loop:
+   ```Swift
+   repeat {
+    statements
+    } while condition
+    ```
+
+
+
+
 ___
 
