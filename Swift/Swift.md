@@ -59,7 +59,6 @@ let pi = 3.141519
 ___
 
 <br/>
-___
 
 ## **Control Flow** -- _Raj_
 
@@ -86,7 +85,8 @@ ___
 > Swift’s **switch** statement is considerably more powerful. 
 <br/>
 
-## FOR-IN LOOPS
+
+### FOR-IN LOOPS
 <br/>
 
 > It is used to iterate over a sequence, such as items in an array, ranges of numbers, or characters in a string.
@@ -108,13 +108,14 @@ for name in names {
 * ### **Example**
      * _To iterate over an Dictionary_
 
-```swift
+ ````swift
 let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
 for (animalName, legCount) in numberOfLegs {
-    print("\(animalName)s have \(legCount) legs")
-          }
+     print("\(animalName)s have \(legCount) legs")
+      }
 // cats have 4 legs
 // ants have 6 legs
 // spiders have 8 legs
+````
+___
 
-```
