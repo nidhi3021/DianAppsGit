@@ -16,6 +16,8 @@
   str = "Goodbye"
   ```
 
+  <br/>
+
 ### **Rules for naming Swift Variables**
 
 1. Variables names must start with either a letter, an underscore `_` , or the dollar sign `$`. For example,
@@ -57,6 +59,8 @@ var variableName:<data type> = <optional initial value>
 >**Note**: If we are not using _type annotation_, then it becomes mandatory to provide an initial value for the variable
 
 
+<br/>
+
 ## **Constants**
 
 *Alternative* to the var keyword,if you want to set a value once and never change it.
@@ -69,6 +73,15 @@ let pi = 3.141519
 ```
 >**Note**: You can declare multiple _*constants*_ or multiple _*variables*_ on a single line, separated by commas
 
+<br/>
+
+### **Printing Constants and Variables**
+&nbsp; You can print the current value of a constant or variable with the `print` function
+
+```swift
+print(str)
+//Prints "Goodbye"
+```
 
 <br/>
 
