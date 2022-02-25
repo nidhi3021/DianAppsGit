@@ -79,7 +79,6 @@ ___
 
 ## **Control Flow** -- _Raj_
 
-___
 
 ### _Control flow_ or _flow of control_ is the order function calls, instructions, and statements that are executed or evaluated when a program is running. 
 <br/>
@@ -104,7 +103,7 @@ ___
 
 ---
 ## FOR-IN LOOPS
----
+
 <br/>
 
 > It is used to iterate over a sequence, such as items in an array, ranges of numbers, or characters in a string.
@@ -149,11 +148,11 @@ for index in 1...5 {
 // 5 times 5 is 25
 
 ```
-**Note:** _You can ignore the values by using an underscore in place of a variable name._
+_**Note:**_ _You can ignore the values by using an underscore in place of a variable name._
 
 ---
 ## WHILE LOOPS
----
+
 >A while loop performs a set of statements until a condition becomes false.
 
 * are best used when the number of iterations isn’t known before the first iteration begins.
@@ -179,6 +178,67 @@ for index in 1...5 {
     statements
     } while condition
     ```
+
+ ### **Conditional Statements**
+
+ Swift provides two ways to add conditional branches to your code: the if statement and the switch statement. 
+
+ >IF 
+ 
+ - the if statement has a single if condition. It executes a set of statements only if that condition is true.
+
+   ```swift
+   var temperatureInFahrenheit = 30
+   if temperatureInFahrenheit <= 32 {
+    print("It's very cold. Consider wearing a scarf.")
+   }
+   // Prints "It's very cold. Consider wearing a scarf."
+    ```
+- The if statement can provide an alternative set of statements, known as an else clause, for situations when the if condition is false. 
+- These statements are indicated by the else keyword.
+  ```Swift
+   temperatureInFahrenheit = 40
+   if temperatureInFahrenheit <= 32 {
+    print("It's very cold. Consider wearing a scarf.")
+   } else {
+    print("It's not that cold. Wear a t-shirt.")
+   }
+   // Prints "It's not that cold. Wear a t-shirt."
+   ```
+
+- You can chain multiple if statements together to consider additional clauses.
+
+  ```Swift
+   temperatureInFahrenheit = 90
+   if temperatureInFahrenheit <= 32 {
+    print("It's very cold. Consider wearing a scarf.")
+   } else if temperatureInFahrenheit >= 86 {
+    print("It's really warm. Don't forget to wear sunscreen.")
+  } else {
+    print("It's not that cold. Wear a t-shirt.")
+   }
+  // Prints "It's really warm. Don't forget to wear sunscreen."
+  ```
+  _**Note:**_ _The final else clause is optional, however, and can be excluded if the set of conditions doesn’t need to be complete._
+
+### **SWITCH**
+
+- A switch statement considers a value and compares it against several possible matching patterns. 
+- It then executes an appropriate block of code, based on the first pattern that matches successfully.
+
+   ```Swift 
+   switch some value to consider {
+   case value 1:
+     respond to value 1
+   case value 2,
+      value 3:
+     respond to value 2 or 3
+   default:
+    otherwise, do something else
+   }
+   ```
+
+
 
 
 
