@@ -6,7 +6,7 @@
 
 * They can vary 
 
-* Declare with the _**var**_
+* Declare with the _**var**_ keyword
 
 ```swift
  var str = "Hello"
@@ -63,14 +63,17 @@ var variableName:<data type> = <optional initial value>
 
 ## **Constants**
 
-*Alternative* to the var keyword,if you want to set a value once and never change it.
+A `constant` is a special type of variable whose value cannot be changed.
 
 
-* Declare with the _**let**_
+* Declare with the _**let**_ keyword
  
 ```swift
 let pi = 3.141519
 ```
+
+Here after `pi` is initialized, we cannot change its value.
+
 >**Note**: You can declare multiple _*constants*_ or multiple _*variables*_ on a single line, separated by commas
 
 <br/>
