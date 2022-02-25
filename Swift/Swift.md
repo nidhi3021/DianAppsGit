@@ -165,11 +165,12 @@ _**Note:**_ _You can ignore the values by using an underscore in place of a vari
 <br/>
 
 
-       ```swift
+     ```swift
        while condition {
        statements
        }
-       ```
+      
+     ```
   
 
    * **Repeat** While loop evaluates conditions at the end of each pass.
@@ -177,11 +178,11 @@ _**Note:**_ _You can ignore the values by using an underscore in place of a vari
      - Here’s the general form of a repeat-while loop:
      <br/>
 
-          ```Swift
+      ```Swift
           repeat {
           statements
           } while condition
-          ```
+      ```
 
  ## **Conditional Statements**
 
