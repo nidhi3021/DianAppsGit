@@ -64,7 +64,6 @@ ___
 
 ## **Control Flow** -- _Raj_
 
-___
 
 ### _Control flow_ or _flow of control_ is the order function calls, instructions, and statements that are executed or evaluated when a program is running. 
 <br/>
@@ -88,8 +87,8 @@ ___
 <br/>
 
 ---
-## FOR-IN LOOPS
----
+### FOR-IN LOOPS
+
 <br/>
 
 > It is used to iterate over a sequence, such as items in an array, ranges of numbers, or characters in a string.
@@ -137,8 +136,8 @@ for index in 1...5 {
 **Note:** _You can ignore the values by using an underscore in place of a variable name._
 
 ---
-## WHILE LOOPS
----
+### WHILE LOOPS
+
 >A while loop performs a set of statements until a condition becomes false.
 
 * are best used when the number of iterations isn’t known before the first iteration begins.
@@ -164,10 +163,6 @@ for index in 1...5 {
     statements
     } while condition
     ```
-
-
-
-
-___
+    ---
 
 
