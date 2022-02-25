@@ -1,6 +1,5 @@
 # **Swift Learning**
 
-
 ## **<span style="color:Thistle">Variables -- Nidhi**</span>
 
 * Variables are place where you can store program data
@@ -55,12 +54,11 @@ let pi = 3.141519
 ```
 >**Note**: You can declare multiple _*constants*_ or multiple variables on a single line, separated by commas
 
-
 <br/>
 
 ___
 
-
+<br/>
 
 ## **Control Flow** -- _Raj_
 
@@ -117,5 +115,4 @@ for (animalName, legCount) in numberOfLegs {
 // ants have 6 legs
 // spiders have 8 legs
 ````
-
 
