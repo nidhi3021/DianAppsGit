@@ -102,7 +102,7 @@ ___
 <br/>
 
 ---
-## FOR-IN LOOPS
+### **FOR-IN LOOPS**
 
 <br/>
 
@@ -151,7 +151,7 @@ for index in 1...5 {
 _**Note:**_ _You can ignore the values by using an underscore in place of a variable name._
 
 ---
-## WHILE LOOPS
+### **WHILE LOOPS**
 
 >A while loop performs a set of statements until a condition becomes false.
 
@@ -161,29 +161,34 @@ _**Note:**_ _You can ignore the values by using an underscore in place of a vari
 
    * **While** loop evaluates conditions at the start of each pass.
 
-   >_Here’s the general form of a while loop:_
-   ```swift
-   while condition {
-    statements
-   }
-   ```
+     - _Here’s the general form of a while loop:_
+<br/>
+
+
+       ```swift
+       while condition {
+       statements
+       }
+       ```
   
 
    * **Repeat** While loop evaluates conditions at the end of each pass.
 
-   > Here’s the general form of a repeat-while 
-   loop:
-   ```Swift
-   repeat {
-    statements
-    } while condition
-    ```
+     - Here’s the general form of a repeat-while loop:
+     <br/>
 
- ### **Conditional Statements**
+          ```Swift
+          repeat {
+          statements
+          } while condition
+          ```
+
+ ## **Conditional Statements**
 
  Swift provides two ways to add conditional branches to your code: the if statement and the switch statement. 
 
- >IF 
+ 
+### &nbsp; &nbsp; **IF**
  
  - the if statement has a single if condition. It executes a set of statements only if that condition is true.
 
@@ -221,12 +226,12 @@ _**Note:**_ _You can ignore the values by using an underscore in place of a vari
   ```
   _**Note:**_ _The final else clause is optional, however, and can be excluded if the set of conditions doesn’t need to be complete._
 
-### **SWITCH**
+  ### **SWITCH**
 
 - A switch statement considers a value and compares it against several possible matching patterns. 
 - It then executes an appropriate block of code, based on the first pattern that matches successfully.
 
-   ```Swift 
+     ```Swift 
    switch some value to consider {
    case value 1:
      respond to value 1
@@ -236,7 +241,7 @@ _**Note:**_ _You can ignore the values by using an underscore in place of a vari
    default:
     otherwise, do something else
    }
-   ```
+    ```
 
 
 
