@@ -162,15 +162,13 @@ _**Note:**_ _You can ignore the values by using an underscore in place of a vari
    * **While** loop evaluates conditions at the start of each pass.
 
      - _Here’s the general form of a while loop:_
-<br/>
-
-
+     <br/>
+    
      ```swift
-       while condition {
-       statements
-       }
-      
-     ```
+        while condition {
+        statements
+        }
+      ```
   
 
    * **Repeat** While loop evaluates conditions at the end of each pass.
