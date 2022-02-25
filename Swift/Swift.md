@@ -53,14 +53,7 @@
 let pi = 3.141519
 ```
 >**Note**: You can declare multiple _*constants*_ or multiple variables on a single line, separated by commas
-
-
 <br/>
-
-___
-
-<br/>
-
 
 ## **Control Flow** -- _Raj_
 
