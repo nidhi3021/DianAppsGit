@@ -59,7 +59,6 @@ let pi = 3.141519
 ___
 
 <br/>
-___
 
 ## **Control Flow** -- _Raj_
 
@@ -116,35 +115,5 @@ for (animalName, legCount) in numberOfLegs {
 // ants have 6 legs
 // spiders have 8 legs
 ````
+___
 
-## FOR-IN LOOPS
-<br/>
-
-> It is used to iterate over a sequence, such as items in an array, ranges of numbers, or characters in a string.
-
-* ### **Example**
-     * _To iterate over an Array_
-
-````swift
-let names = ["Anna", "Alex", "Brian", "Jack"]
-for name in names {
-    print("Hello, \(name)!")
-}
-// Hello, Anna!
-// Hello, Alex!
-// Hello, Brian!
-// Hello, Jack!
-````
-> Each item in the dictionary is returned as a **(key, value)** [tuple.](https://www.w3schools.com/python/python_tuples)
-* ### **Example**
-     * _To iterate over an Dictionary_
-
-     ```swift
-     let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
-      for (animalName, legCount) in numberOfLegs {
-        print("\(animalName)s have \(legCount) legs")
-          }
-    // cats have 4 legs
-    // ants have 6 legs
-    // spiders have 8 legs
-    ```
