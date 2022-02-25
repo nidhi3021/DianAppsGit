@@ -54,6 +54,7 @@ let pi = 3.141519
 ```
 >**Note**: You can declare multiple _*constants*_ or multiple variables on a single line, separated by commas
 <br/>
+___
 
 ## **Control Flow** -- _Raj_
 
@@ -102,6 +103,7 @@ for name in names {
 * ### **Example**
      * _To iterate over an Dictionary_
 
+<<<<<<< HEAD
 ```swift
 let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
 for (animalName, legCount) in numberOfLegs {
@@ -111,3 +113,14 @@ for (animalName, legCount) in numberOfLegs {
 // ants have 6 legs
 // spiders have 8 legs
 ```
+=======
+     ```swift
+     let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
+      for (animalName, legCount) in numberOfLegs {
+        print("\(animalName)s have \(legCount) legs")
+          }
+    // cats have 4 legs
+    // ants have 6 legs
+    // spiders have 8 legs
+    ```
+>>>>>>> 36d657e (Added for Loops)
