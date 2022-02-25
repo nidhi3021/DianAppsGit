@@ -242,6 +242,9 @@ _**Note:**_ _You can ignore the values by using an underscore in place of a vari
    }
     ```
 
+    **NOTE:**
+  > _"Although break isn’t required in Swift, you can use a break statement to match and ignore a particular case or to break out of a matched case before that case has completed its execution."_
+
 
 
 
