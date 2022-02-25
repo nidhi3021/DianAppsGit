@@ -87,8 +87,8 @@ ___
 > Swift’s **switch** statement is considerably more powerful. 
 <br/>
 
-<<<<<<< HEAD
-### FOR-IN LOOPS
+
+## FOR-IN LOOPS
 <br/>
 
 > It is used to iterate over a sequence, such as items in an array, ranges of numbers, or characters in a string.
@@ -121,93 +121,4 @@ for (animalName, legCount) in numberOfLegs {
 ````
 ___
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## **<span style="color:Thistle">Variables -- Nidhi**</span>
->Variables are place where you can store program data
 
-## **<span style="color:Thistle">Variables -- Nidhi**</span>
-
-* Variables are place where you can store program data
-
->They can vary 
-
-```swift
- var str = "Hello"
-```
-  Because **str** is a variable we can change it:
-  ```swift
-  str = "Goodbye"
-  ```
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-## **Constants**
----
-*Alternative* to the var keyword,if you want to set a value once and never change it.
-
-
-* Declare with the _**let**_
- 
-```swift
-let pi = 3.141519
-```
->**Note**: You can declare multiple _*constants*_ or multiple variables on a single line, separated by commas
->>>>>>> 7d54630 (Modified and added description about constants)
-=======
->>>>>>> 7000f56 (Revert "Modified and added description about constants")
-=======
->>>>>>> 2de7cf1 (Added about Control flow Intro)
-=======
-=======
->>>>>>> e752004 (Added for Loops)
-=======
->>>>>>> ea12b1e (Removed extra for-in loop description)
-## FOR-IN LOOPS
-<br/>
-
-> It is used to iterate over a sequence, such as items in an array, ranges of numbers, or characters in a string.
-
-* ### **Example**
-     * _To iterate over an Array_
-
-````swift
-let names = ["Anna", "Alex", "Brian", "Jack"]
-for name in names {
-    print("Hello, \(name)!")
-}
-// Hello, Anna!
-// Hello, Alex!
-// Hello, Brian!
-// Hello, Jack!
-````
-> Each item in the dictionary is returned as a **(key, value)** [tuple.](https://www.w3schools.com/python/python_tuples)
-* ### **Example**
-     * _To iterate over an Dictionary_
-
-```swift
-let numberOfLegs = ["spider": 8, "ant": 6, "cat": 4]
-for (animalName, legCount) in numberOfLegs {
-    print("\(animalName)s have \(legCount) legs")
-          }
-<<<<<<< HEAD
-    // cats have 4 legs
-    // ants have 6 legs
-    // spiders have 8 legs
-    ```
-<<<<<<< HEAD
->>>>>>> f4da0ab (Added for Loops)
-=======
->>>>>>> 71b9ad9 (edited repo)
-=======
->>>>>>> e752004 (Added for Loops)
-=======
-// cats have 4 legs
-// ants have 6 legs
-// spiders have 8 legs
-```
->>>>>>> 172969b (fixed the allignment)
