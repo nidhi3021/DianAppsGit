@@ -59,6 +59,7 @@ let pi = 3.141519
 ___
 
 <br/>
+___
 
 ## **Control Flow** -- _Raj_
 
@@ -115,5 +116,5 @@ for (animalName, legCount) in numberOfLegs {
 // cats have 4 legs
 // ants have 6 legs
 // spiders have 8 legs
-<<<<<<< HEAD
+
 ```
