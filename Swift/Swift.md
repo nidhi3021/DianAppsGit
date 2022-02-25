@@ -41,7 +41,22 @@
     ```
 
 4. Avoid using Swift keywords like `var`, &nbsp;`String`, &nbsp;`class`, etc. as variable names.
-    
+
+<br/>
+
+### **Type Annotations**
+
+&nbsp; &nbsp; &nbsp; You can provide a type annotation when you declare a variable, to be clear about the kind of values the variable can store.
+
+**_Syntax_**
+
+```Swift
+var variableName:<data type> = <optional initial value>
+```
+
+>**Note**: If we are not using _type annotation_, then it becomes mandatory to provide an initial value for the variable
+
+
 ## **Constants**
 
 *Alternative* to the var keyword,if you want to set a value once and never change it.
@@ -52,7 +67,7 @@
 ```swift
 let pi = 3.141519
 ```
->**Note**: You can declare multiple _*constants*_ or multiple variables on a single line, separated by commas
+>**Note**: You can declare multiple _*constants*_ or multiple _*variables*_ on a single line, separated by commas
 
 
 <br/>
